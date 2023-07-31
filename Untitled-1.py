@@ -33,3 +33,6 @@ with c1:
 # Row C
 st.markdown('### Line chart/Day')
 st.line_chart(usd_vnd, x='date', y=plot_data, height=plot_height)
+
+
+###If you want to run the Streamlit dictionary: Open cmd, Navigate to the code file directory using 'cd', Enter the command 'streamlit run Untitled-1.py'.

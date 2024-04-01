@@ -22,7 +22,7 @@ col2.metric("Thay đổi", "0.5%", "-2%")
 col3.metric("Khối lượng", "2 triệu", "3 triệu")
 
 # Hàng B
-fpt_stock = pd.read_csv('https://raw.githubusercontent.com/Cato2802/Toto_dashboard/main/D%E1%BB%AF%20li%E1%BB%87u%20ch%E1%BB%A9ng%20kho%C3%A1n%20FPT.csv', parse_dates=['Ngày'])
+fpt_stock = pd.read_csv('https://github.com/Cato2802/Toto_Project_Dashboard-with-Streamlit/blob/main/Du%CC%9B%CC%83%20lie%CC%A3%CC%82u%20Li%CC%A3ch%20su%CC%9B%CC%89%20FPT.csv', parse_dates=['Ngày'])
 
 c1, c2 = st.columns((7,3))
 with c1:
